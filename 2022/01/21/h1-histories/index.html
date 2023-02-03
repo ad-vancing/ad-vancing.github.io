@@ -350,7 +350,7 @@
   <script type="text/javascript">
     Fluid.utils.lazyComments('gitalk-container', function() {
       Fluid.utils.createCssLink('/css/gitalk.css')
-      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', function () {
+      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js', function () {
         var gitalk = new Gitalk({
           clientID: '49d82a1bc9d2788dc10e',
           clientSecret: '722198b3e8e0f68141e7dbcf822ba4ee5c10d663',
@@ -364,7 +364,7 @@
           pagerDirection: 'last',
           createIssueManually: true,
           distractionFreeMode: false,
-          proxy: 'https://ad-vancing.github.io/https://github.com/login/oauth/access_token'
+//           proxy: ''
         });
         gitalk.render('gitalk-container');
       });
